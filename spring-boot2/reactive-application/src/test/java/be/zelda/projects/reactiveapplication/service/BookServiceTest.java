@@ -44,9 +44,9 @@ public class BookServiceTest {
 
         // then
         StepVerifier.create(books)
-                .expectNextMatches(p -> p.getTitle().equalsIgnoreCase("JAVA11"));
-//                .expectNextCount(2) //
-//                .verifyComplete();
+//                .expectNextMatches(p -> p.getTitle().equalsIgnoreCase("JAVA11"));
+                .expectNextCount(2) //
+                .verifyComplete();
 
     }
 }
