@@ -4,10 +4,12 @@ import be.zelda.projects.reactiveapplication.data.Book;
 import be.zelda.projects.reactiveapplication.data.BookRepository;
 import be.zelda.projects.reactiveapplication.rest.BookDto;
 import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+@Primary
 @Service
 @RequiredArgsConstructor
 public class BookService implements IBookService {
