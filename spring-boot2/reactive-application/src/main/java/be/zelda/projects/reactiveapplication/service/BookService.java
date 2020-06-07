@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono;
 
 @Service
 @RequiredArgsConstructor
-public class BookService {
+public class BookService implements IBookService {
 
     private final BookRepository bookRepository;
 
