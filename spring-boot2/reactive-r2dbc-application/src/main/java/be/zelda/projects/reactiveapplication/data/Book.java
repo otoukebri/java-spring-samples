@@ -17,7 +17,6 @@ public class Book {
     private BigDecimal price;
 
     public Book(String title, String isbn, String author, BigDecimal price) {
-        this.id = id;
         this.title = title;
         this.isbn = isbn;
         this.author = author;

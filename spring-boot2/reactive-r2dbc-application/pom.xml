@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.targa.labs.dev</groupId>
-	<artifactId>my-reactive-app</artifactId>
+	<artifactId>reactive-r2dbc-application</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>my-reactive-app</name>
-	<description>Demo project for Spring Boot Reactive</description>
+	<name>reactive-r2dbc-application</name>
+	<description>Demo project for Spring Boot Reactive r2dbc</description>
 
 	<properties>
 		<java.version>1.8</java.version>
