@@ -4,6 +4,7 @@ import be.zelda.projects.reactiveapplication.data.Book;
 import be.zelda.projects.reactiveapplication.data.BookRepository;
 import be.zelda.projects.reactiveapplication.rest.BookDto;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
@@ -14,7 +15,7 @@ import reactor.core.publisher.Mono;
 @RequiredArgsConstructor
 public class BookService implements IBookService {
 
-    private final BookRepository bookRepository;
+    private  BookRepository bookRepository;
 
     public Flux<Book> findAll() {
         return this.bookRepository.findAll();

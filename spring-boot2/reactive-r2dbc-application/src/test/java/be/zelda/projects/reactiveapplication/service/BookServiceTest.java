@@ -24,10 +24,6 @@ public class BookServiceTest {
     @InjectMocks
     BookService bookService;
 
-    @Before
-    public void setup() {
-    }
-
     @Test
     public void finAllTest() {
         // given

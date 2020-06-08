@@ -2,6 +2,8 @@ package be.zelda.projects.reactiveapplication.rest;
 
 import be.zelda.projects.reactiveapplication.data.Book;
 import be.zelda.projects.reactiveapplication.service.IBookService;
+import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
@@ -10,13 +12,14 @@ import reactor.core.publisher.Mono;
 
 @RestController
 @RequestMapping("/books")
+@AllArgsConstructor
 public class BookRestController {
 
-    private final IBookService bookService;
+    private  IBookService bookService;
 
-    public BookRestController(IBookService bookService) {
-        this.bookService = bookService;
-    }
+//    public BookRestController(IBookService bookService) {
+//        this.bookService = bookService;
+//    }
 
     @GetMapping
     public Flux<Book> list() {
