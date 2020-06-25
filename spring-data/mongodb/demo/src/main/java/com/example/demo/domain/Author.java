@@ -2,28 +2,23 @@ package com.example.demo.domain;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.time.LocalDate;
 import java.util.List;
 
 @Data
 @Document
-public class Book {
+public class Author {
     @Id
     private Long id;
 
-    private String title;
+    @Indexed
+    private String name;
 
-    //  private LocalDate publicationDate;
-    private LocalDate publicationDate;
-
-    @DBRef
-    List<Author> authors;
-
-    public Book(Long id, String title) {
+    public Author(Long id, String name) {
         this.id = id;
-        this.title = title;
+        this.name = name;
     }
 }
