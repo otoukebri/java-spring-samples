@@ -1,0 +1,2 @@
+Spring data sample (mysql)
+
