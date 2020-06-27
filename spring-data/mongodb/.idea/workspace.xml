@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56b54e53-dfa1-47cf-915f-ae1d27ef9319" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/microservices/ecommerce-microservices/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/ecommerce-microservices/inventory-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/ecommerce-microservices/inventory-service/src/main/java/tn/zelda/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/ecommerce-microservices/inventory-service/src/main/java/tn/zelda/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/ecommerce-microservices/inventory-service/src/main/java/tn/zelda/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/ecommerce-microservices/inventory-service/src/main/java/tn/zelda/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/ecommerce-microservices/inventory-service/src/main/java/tn/zelda/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/ecommerce-microservices/inventory-service/src/main/java/tn/zelda/repository/ProductRepository.java" afterDir="false" />
+    <list default="true" id="7443607e-f258-441d-a6a2-f6404a5732dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../microservices/ecommerce-microservices" beforeDir="false" afterPath="$PROJECT_DIR$/../../microservices/ecommerce-microservices" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,14 +14,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/samples.iml" />
-      </list>
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="51" />
@@ -38,23 +28,79 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="samples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="mongodb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mongodb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mongodb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mongodb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mongodb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mongodb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mongodb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mongodb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo/pom.xml" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -73,11 +119,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="56b54e53-dfa1-47cf-915f-ae1d27ef9319" name="Default Changelist" comment="" />
-      <created>1591384126826</created>
+      <changelist id="7443607e-f258-441d-a6a2-f6404a5732dc" name="Default Changelist" comment="" />
+      <created>1592247903200</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1591384126826</updated>
+      <updated>1592247903200</updated>
     </task>
     <servers />
   </component>
