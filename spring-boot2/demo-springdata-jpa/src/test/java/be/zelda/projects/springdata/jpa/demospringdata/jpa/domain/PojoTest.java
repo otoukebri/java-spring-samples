@@ -1,11 +1,9 @@
 package be.zelda.projects.springdata.jpa.demospringdata.jpa.domain;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static pl.pojo.tester.api.FieldPredicate.include;
 import static pl.pojo.tester.api.assertion.Assertions.assertPojoMethodsFor;
-import static pl.pojo.tester.api.assertion.Assertions.assertPojoMethodsForAll;
 import static pl.pojo.tester.api.assertion.Method.*;
 
 public class PojoTest {

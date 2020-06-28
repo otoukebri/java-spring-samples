@@ -1,30 +1,30 @@
-package be.zelda.projects.springdata.jpa.demospringdata.jpa.controller;
+package be.zelda.projects.springdata.jpa.demospringdata.jpa.application;
 
-import be.zelda.projects.springdata.jpa.demospringdata.jpa.application.BookApplicationImpl;
 import be.zelda.projects.springdata.jpa.demospringdata.jpa.domain.Book;
-import be.zelda.projects.springdata.jpa.demospringdata.jpa.dto.BookDto;
+import be.zelda.projects.springdata.jpa.demospringdata.jpa.repository.BookRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.when;
 
 @SpringBootTest
-public class BookControllerTest {
-
-    @InjectMocks
-    BookController bookController;
+public class BookApplicationTest {
 
     @Mock
+    private BookRepository bookRepository;
+
+    @InjectMocks
     private BookApplicationImpl bookApplication;
 
     private List<Book> mockBooks;
+
 
     @BeforeEach
     public void before() {
@@ -35,18 +35,16 @@ public class BookControllerTest {
         mockBooks.add(b);
     }
 
-
     @Test
-    public void getAllBooks() throws Exception {
+    public void getAll() {
         // given
-        when(this.bookApplication.getAll()).thenReturn(mockBooks);
+        Mockito.when(bookRepository.findAll()).thenReturn(mockBooks);
 
         // when
-        List<BookDto> controllerBooks = (List<BookDto>) bookController.getAllBooks().getBody();
+        List<Book> books = bookApplication.getAll();
 
         // then
-        assertEquals(mockBooks.size(), controllerBooks.size());
-
+        assertEquals(mockBooks.size(), mockBooks.size());
 
     }
 

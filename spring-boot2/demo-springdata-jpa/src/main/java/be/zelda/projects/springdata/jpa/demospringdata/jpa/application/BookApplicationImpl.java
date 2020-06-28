@@ -13,6 +13,7 @@ public class BookApplicationImpl implements BookApplication {
     @Autowired
     BookRepository bookRepository;
 
+    @Override
     public List<Book> getAll() {
         return (List<Book>) this.bookRepository.findAll();
     }
