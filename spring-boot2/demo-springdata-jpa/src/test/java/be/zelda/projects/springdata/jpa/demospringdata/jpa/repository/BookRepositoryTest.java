@@ -30,7 +30,7 @@ class BookRepositoryTest {
         this.entityManager.persist(book);
 
         // when
-        List<Book> bookDb = this.bookRepository.findByTitleContains("Java");
+        List<Book> bookDb = this.bookRepository.findByTitleContainsIgnoreCase("java");
 
         // then
         assertNotNull(bookDb.get(0));
