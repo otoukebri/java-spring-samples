@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.test.context.jdbc.Sql;
 
 import javax.persistence.EntityManager;
 
@@ -12,8 +13,10 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
+@Sql("/data.sql")
 class BookRepositoryTest {
 
     @Autowired
@@ -26,14 +29,15 @@ class BookRepositoryTest {
     void findByTitleTest() {
         // given
         Book book = new Book();
-        book.setTitle("Java 14");
+        book.setTitle("C++");
         this.entityManager.persist(book);
 
         // when
-        List<Book> bookDb = this.bookRepository.findByTitleContainsIgnoreCase("java");
+        List<Book> bookDb = this.bookRepository.findByTitleContainsIgnoreCase("C++");
 
         // then
+        assertEquals(bookDb.size(), 2);
         assertNotNull(bookDb.get(0));
-        assertTrue(book.getTitle().contains(bookDb.get(0).getTitle()));
+        assertTrue(book.getTitle().equals(bookDb.get(0).getTitle()));
     }
 }
