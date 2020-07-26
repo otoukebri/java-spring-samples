@@ -1,0 +1,9 @@
+/home/zelda/workspace_java/my-projects/rest-api-catalog-orders/src/main/java/tn/zelda/projects/microservice/ordermicroservice/domain/OrderType.java
+/home/zelda/workspace_java/my-projects/rest-api-catalog-orders/src/main/java/tn/zelda/projects/microservice/ordermicroservice/RestApiOrdersApplication.java
+/home/zelda/workspace_java/my-projects/rest-api-catalog-orders/src/main/java/tn/zelda/projects/microservice/ordermicroservice/domain/OrderDetail.java
+/home/zelda/workspace_java/my-projects/rest-api-catalog-orders/src/main/java/tn/zelda/projects/microservice/ordermicroservice/contoller/OrdersController.java
+/home/zelda/workspace_java/my-projects/rest-api-catalog-orders/src/main/java/tn/zelda/projects/microservice/ordermicroservice/dao/ProductRepository.java
+/home/zelda/workspace_java/my-projects/rest-api-catalog-orders/src/main/java/tn/zelda/projects/microservice/ordermicroservice/domain/Product.java
+/home/zelda/workspace_java/my-projects/rest-api-catalog-orders/src/main/java/tn/zelda/projects/microservice/ordermicroservice/domain/Order.java
+/home/zelda/workspace_java/my-projects/rest-api-catalog-orders/src/main/java/tn/zelda/projects/microservice/ordermicroservice/dao/OrderRepository.java
+/home/zelda/workspace_java/my-projects/rest-api-catalog-orders/src/main/java/tn/zelda/projects/microservice/ordermicroservice/domain/Review.java

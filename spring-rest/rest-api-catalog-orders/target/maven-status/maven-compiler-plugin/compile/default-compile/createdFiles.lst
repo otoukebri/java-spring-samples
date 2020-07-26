@@ -1,0 +1,9 @@
+tn/zelda/projects/microservice/ordermicroservice/dao/OrderRepository.class
+tn/zelda/projects/microservice/ordermicroservice/dao/ProductRepository.class
+tn/zelda/projects/microservice/ordermicroservice/domain/Order.class
+tn/zelda/projects/microservice/ordermicroservice/domain/Review.class
+tn/zelda/projects/microservice/ordermicroservice/RestApiOrdersApplication.class
+tn/zelda/projects/microservice/ordermicroservice/domain/Product.class
+tn/zelda/projects/microservice/ordermicroservice/domain/OrderDetail.class
+tn/zelda/projects/microservice/ordermicroservice/domain/OrderType.class
+tn/zelda/projects/microservice/ordermicroservice/contoller/OrdersController.class
