@@ -16,7 +16,7 @@ import java.util.List;
 public class BookController {
 
     @Autowired
-    BookApplication bookApplication;
+    private BookApplication bookApplication;
 
     @GetMapping
     public ResponseEntity<List<BookDto>> getAllBooks() {
