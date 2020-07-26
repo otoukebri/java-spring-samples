@@ -1,0 +1,10 @@
+zuul:
+  prefix: /api
+  ignoredServices: '*'
+  routes:
+    #vets-service: /vet/**
+    #visits-service: /visit/**
+    customers-service: /customers/**
+    zuul-service: /gateway/**
+
+  
