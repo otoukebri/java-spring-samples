@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+import java.util.Arrays;
+import java.util.List;
+
 
 @RestController
 @RequestMapping("/books")
@@ -28,7 +31,13 @@ public class BookRestController {
 
     @GetMapping("/{id}")
     public Mono<Book> finById(@PathVariable Long id) {
-        return this.bookService.findOne(id);
+        Flux.just("");
+        Flux.fromIterable(Arrays.asList("a", "b", "c"));
+        return  Mono.just(new Book());
+//        return  this.bookService.findOne(id).subscribe( x => {
+//
+//        });
+        // return this.bookService.findOne(id);
     }
 
     @PostMapping

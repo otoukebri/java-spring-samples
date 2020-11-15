@@ -2,15 +2,13 @@ package be.zelda.projects.springdata.jpa.demospringdata.jpa.domain;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
-//@NoArgsConstructor
-@RequiredArgsConstructor
+@NoArgsConstructor
 @Data
 @Entity
 public class Book {
@@ -23,5 +21,5 @@ public class Book {
 
     @OneToMany(cascade = CascadeType.ALL)
     @JoinColumn(name = "book_id")
-    private List<Author> authors =  new ArrayList<>();
+    private Set<Author> authors = new HashSet<>();
 }

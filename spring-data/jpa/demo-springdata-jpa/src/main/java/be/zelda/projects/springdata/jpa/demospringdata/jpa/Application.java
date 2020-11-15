@@ -32,11 +32,11 @@ public class Application {
         Book b = new Book();
         b.setTitle("Java");
         b.setIsbn("AAAA");
-        bookRepository.save(b);
 
         Author a = new Author();
         a.setName("J.Blosh");
-        authorRepository.save(a);
+        bookRepository.save(b);
+//        authorRepository.save(a);
 
     }
 
